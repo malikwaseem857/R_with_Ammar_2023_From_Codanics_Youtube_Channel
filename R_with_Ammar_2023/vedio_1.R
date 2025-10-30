@@ -11,3 +11,5 @@ x*y
 install.packages("readxl")
 # how to activate readxl
 library(readxl)
+
+day_1 done.

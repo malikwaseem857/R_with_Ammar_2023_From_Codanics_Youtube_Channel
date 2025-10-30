@@ -10,7 +10,7 @@ View(my_data)
 
 str(my_data)
 
-
+# lets check the head of data
 head(my_data)
 tail(my_data)
 
@@ -27,3 +27,4 @@ boxplot(my_data$Crop, my_data$Height)
 
 
 boxplot(my_data$Height~ my_data$Crop)
+

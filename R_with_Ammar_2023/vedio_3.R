@@ -6,7 +6,7 @@ View(my_data)
 
 ## strip chart    for plot zoom cntl+shf+6
 stripchart(my_data$Height)
-## strip chart for 2 variable
+## strip chart for 2 variables
 stripchart(my_data$Height~ my_data$Weight)
 
 ## Histogram
@@ -28,6 +28,7 @@ mosaicplot(~my_data$Crop+my_data$Height)
 
 
 bqxplot(my_data$Height ~ my_data$Crop)
+
 
 
 

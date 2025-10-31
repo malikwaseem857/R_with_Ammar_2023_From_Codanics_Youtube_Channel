@@ -14,10 +14,10 @@ hist(my_data$Height)
 hist(my_data$Weight)
 
 
-# scatter plot
+# Scatter plot
 plot(my_data$Weight, my_data$Height)
 
-# qqnorm plot
+# Qqnorm plot
 qqnorm(my_data$Weight)
 
 ## Bar plot
@@ -28,6 +28,7 @@ mosaicplot(~my_data$Crop+my_data$Height)
 
 
 bqxplot(my_data$Height ~ my_data$Crop)
+
 
 
 

@@ -20,7 +20,7 @@ plot(my_data$Weight, my_data$Height)
 # qqnorm plot
 qqnorm(my_data$Weight)
 
-## bar plot
+## Bar plot
 barplot(my_data$Height)
 
 ## Mosaic plot
@@ -28,6 +28,7 @@ mosaicplot(~my_data$Crop+my_data$Height)
 
 
 bqxplot(my_data$Height ~ my_data$Crop)
+
 
 
 

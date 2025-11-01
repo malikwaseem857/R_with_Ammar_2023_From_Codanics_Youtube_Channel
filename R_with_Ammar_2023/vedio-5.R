@@ -27,7 +27,7 @@ sd(data$Weight)
 var(data$Height)
 Var(data$Weight)
 
-# for particular data before, rows after , columns
+# for particular data before, rows after, columns
 lapply(data[, 2:3], mean)
 lapply(data[, 2:3], sd)
 
@@ -52,3 +52,4 @@ summary(a2)
 
 TukeyHSD(a2)
 #for automatic lattaring install agricolae
+

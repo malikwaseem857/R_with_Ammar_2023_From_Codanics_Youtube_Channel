@@ -42,5 +42,6 @@ my_data2$Crop <- factor(my_data2$Crop, levels = c("potato","Maize", "Rice", "Whe
 boxplot(data$Crop, data$Height, xlab = "Crop Type", ylab = "Height Length")
 
 boxplot(my_data2$Height ~ my_data2$Crop) * my_data2$water, main ="Boxplot of Experiment")
-## if the middle line of the boxplot didn't touch the uper quartile of 2nd boxplot there will be significant difference
+## if the middle line of the boxplot didn't touch the upper quartile of 2nd boxplot there will be significant difference
+
 

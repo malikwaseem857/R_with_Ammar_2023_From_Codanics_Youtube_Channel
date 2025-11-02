@@ -32,7 +32,7 @@ out <- duncan.test(model,"Crop", group = TRUE, console = TRUE, main = "Duncan te
 plot(out)
 
 
-#grouping
+# grouping
 boxplot(Height ~ Crop * water, data= x, las=2, xlab = "")
 model1 <- aov(Height ~ Crop * water, data= x)
 out1 <- HSD.test(model1, c("Crop", "water"), group = TRUE, console = TRUE, main = "Tukey test")
@@ -51,4 +51,5 @@ jpeg(file="Tukey test plot.tiff",
 plot(out1, las = 2)
 
 dev.off()   # for saving
+
 

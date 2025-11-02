@@ -45,9 +45,10 @@ jpeg(file="Tukey test.tiff",
 boxplot(Height ~ Crop * water, data = x, las=2, xlab = "")
 dev.off()   # for saving
 
-
+# to save the file in jpg
 jpeg(file="Tukey test plot.tiff",
      width = 6, height= 4, units = "in", res = 300)
 plot(out1, las = 2)
 
 dev.off()   # for saving
+

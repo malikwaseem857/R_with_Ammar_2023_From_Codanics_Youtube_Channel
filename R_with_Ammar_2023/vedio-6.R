@@ -11,7 +11,7 @@ boxplot(x$Height ~ x$Crop)
 boxplot(Height ~ Crop, data= x) # best onne
 # for just 2 means we will use t-test
 
-#multiple comparsion of mean
+#multiple comparison of mean
 
 install.packages("agricolae")
 library(agricolae)
@@ -49,4 +49,5 @@ dev.off()   # for saving
 jpeg(file="Tukey test plot.tiff",
      width = 6, height= 4, units = "in", res = 300)
 plot(out1, las = 2)
+
 dev.off()   # for saving

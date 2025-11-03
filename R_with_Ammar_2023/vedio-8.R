@@ -1,6 +1,6 @@
 #how to use built in datasets of R
 data() # all datasets in R
-View(CO2) #to view datasets in R cosole
+View(CO2) #to view datasets in R console
 View(PlantGrowth)
 View(iris)
 View(mtcars)
@@ -22,3 +22,4 @@ library(ggplot2) #to plot the graph and figure
 ggplot(trees, aes(Girth, Height))+geom_point()
 # to find the type of trend in data use geom_smooth method
 ggplot(trees, aes(Girth, Height))+geom_point()+geom_smooth(method = "lm")
+

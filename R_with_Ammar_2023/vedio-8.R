@@ -17,11 +17,12 @@ install.packages("writexl") #to save .xlsx files
 library(writexl)
 # save the co2 data in test_1 file
 write_xlsx(CO2, path = "C:\\Users\\SAMIA NOREEN\\Desktop\\test_1\\CO2.xlsx") #to commont files
-# Let's make a graph (geomPLot) of tree data
+# Let's make a graph (geomPlot) of tree data
 library(ggplot2) #to plot the graph and figure
 ggplot(trees, aes(Girth, Height))+geom_point()
 # to find the type of trend in data use geom_smooth method
 ggplot(trees, aes(Girth, Height))+geom_point()+geom_smooth(method = "lm")
+
 
 
 

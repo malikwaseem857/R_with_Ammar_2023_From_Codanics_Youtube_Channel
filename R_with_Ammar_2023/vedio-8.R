@@ -11,7 +11,7 @@ View(npk) #NPK data for fictorial design
 head(CO2) #to show the first 6 rows of the data
 names(CO2) #to show the names of columns
 nrow(CO2) #to look for number of rows
-ncol(CO2)  #to look for numbers of columns
+ncol(CO2)  #to look for number of columns
 
 install.packages("writexl") #to save .xlsx files
 library(writexl)
@@ -22,4 +22,5 @@ library(ggplot2) #to plot the graph and figure
 ggplot(trees, aes(Girth, Height))+geom_point()
 # to find the type of trend in data use geom_smooth method
 ggplot(trees, aes(Girth, Height))+geom_point()+geom_smooth(method = "lm")
+
 

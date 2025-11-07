@@ -15,9 +15,10 @@ v1+v2
 v1*v2
 v1+v3
 
-#vectors in strings we write string in commas
+#vectors in strings we write a string in commas
 s1 <- c("I", "Love", 'R', "with", "waseem")
 print(s1)
 s1(type)
 s2 <- c(v1, s1)
+
 

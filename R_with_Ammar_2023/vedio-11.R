@@ -1,4 +1,4 @@
-#sequence and repeats
+#Sequence and Repeats
 # sequences is a numner of array.
 seq(from= 0, to =100)
 seq(1, 121) # same as from 
@@ -17,3 +17,4 @@ rep(1:10, each=3)
 rep("Homework", 100)
 rep(1:10, each=3, times=3)
 rep("I Love R with Ammar", 100)
+

@@ -1,4 +1,5 @@
-#create a vector in R
+# Vector creation in R
+# create a vector in R
 
 v1 <- c(3, 4, 6, 8, 9, 13)
 
@@ -20,5 +21,6 @@ s1 <- c("I", "Love", 'R', "with", "waseem")
 print(s1)
 s1(type)
 s2 <- c(v1, s1)
+
 
 

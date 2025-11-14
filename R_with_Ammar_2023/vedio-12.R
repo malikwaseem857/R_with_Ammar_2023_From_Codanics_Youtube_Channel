@@ -2,6 +2,7 @@
 
 library(ggplot2)
 
+# import build-in data set 
 data("cars")
 View("cars")
 
@@ -96,5 +97,6 @@ nrow(d_sample)
 # lets make jitter plot
 ggplot(d_sample, aes(cut, price, color=cut))+geom_jitter()
 ggplot(d_sample, aes(cut,))+geom_point()
+
 
 

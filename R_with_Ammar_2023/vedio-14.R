@@ -30,7 +30,7 @@ library(FactoMineR)
 
 #PCA table
 iris.pca <- PCA(iris[ , -5], graph=TRUE, scale.unit = TRUE )
-## scaling fasle if units are same
+## scaling false if units are the same
 iris.pca <- PCA(iris[ , -5], graph=TRUE, scale.unit = FALSE )
 
 #screeplot show PCA components
@@ -54,6 +54,7 @@ fviz_pca_var(iris.pca, col.var = "cos2",
   labs(title = "PCA of parameters", x= "PC1 (49%)", y= "PC2 (23.9%)",
        color = "cos2")
 ggsave("PCA.png", units = "in", width=6.5, height =5.5 )
+
 
 
 

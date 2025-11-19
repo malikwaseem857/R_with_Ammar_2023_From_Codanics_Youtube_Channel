@@ -2,7 +2,7 @@
 # because we have 2 axis and we cannot draw multiple variables
 # PCA converts big data into small components called principle components
 # PCA used to overall understand the multi-dimentional data
-## samples ara seen as clusters or groups
+## samples are seen as clusters or groups
 
 #read data
 data("iris")
@@ -54,6 +54,7 @@ fviz_pca_var(iris.pca, col.var = "cos2",
   labs(title = "PCA of parameters", x= "PC1 (49%)", y= "PC2 (23.9%)",
        color = "cos2")
 ggsave("PCA.png", units = "in", width=6.5, height =5.5 )
+
 
 
 

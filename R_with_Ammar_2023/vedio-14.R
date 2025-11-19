@@ -14,7 +14,7 @@ print(x)
 summary(x)
 
 #ggplot2 cbind for binding PCA components
-## mostely or usually we draw PCA1 and PCA agaist each other becos 80-90% lies here
+## mostely or usually we draw PCA1 and PCA against each other because 80-90% lies here
 irirs <- cbind(iris, x$x)
 ## grouping by gglot2
 ggplot(iris, aes(PC1, PC2, col=iris$Species, fill=iris$Species))+
@@ -54,6 +54,7 @@ fviz_pca_var(iris.pca, col.var = "cos2",
   labs(title = "PCA of parameters", x= "PC1 (49%)", y= "PC2 (23.9%)",
        color = "cos2")
 ggsave("PCA.png", units = "in", width=6.5, height =5.5 )
+
 
 
 

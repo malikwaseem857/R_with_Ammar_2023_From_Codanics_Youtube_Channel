@@ -8,7 +8,7 @@
 data("iris")
  
 #PCA applicale only numeric values 5th is categorical that why -5 means 5th not added
-## do scale becuase each value should have same units
+## do scale because each value should have same units
 x<- prcomp(iris[ ,-5], center = TRUE, scale. = TRUE )
 print(x)
 summary(x)
@@ -54,6 +54,7 @@ fviz_pca_var(iris.pca, col.var = "cos2",
   labs(title = "PCA of parameters", x= "PC1 (49%)", y= "PC2 (23.9%)",
        color = "cos2")
 ggsave("PCA.png", units = "in", width=6.5, height =5.5 )
+
 
 
 
